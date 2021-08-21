@@ -1,0 +1,11 @@
+---
+  default: -p producao -p chrome 
+  producao: ENV_TYPE=producao
+  hmg: ENV_TYPE=hmg
+  firefox: BROWSER=firefox
+  chrome: BROWSER=chrome
+  headless: BROWSER=headless
+  html: --format html --out=log/report.html
+  json: --format json --out=log/report.json
+  pretty: --format pretty
+  progress: --format progress
